@@ -14,6 +14,8 @@
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    
+    <script src="https://unpkg.com/flowbite@1.6.5/dist/flowbite.js"></script>
 
     <!-- Styles -->
     @livewireStyles
@@ -29,7 +31,7 @@
         @if (isset($header))
             <header class="bg-white shadow">
                 <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                    {{ $header }}
+
                 </div>
             </header>
         @endif

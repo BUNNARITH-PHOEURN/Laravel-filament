@@ -13,6 +13,11 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         // \App\Models\User::factory(10)->create();
+        \App\Models\Courses::factory(10)->create();
+        \App\Models\Lesson::factory(10)->create();
+        \App\Models\Question::factory(10)->create();
+        \App\Models\Quiz::factory(10)->create();
+        \App\Models\Result::factory(10)->create();
 
         // \App\Models\User::factory()->create([
         //     'name' => 'Test User',
