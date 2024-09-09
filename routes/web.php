@@ -1,5 +1,7 @@
 <?php
 
+use App\Livewire\About;
+use App\Livewire\Home;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,3 +28,6 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+Route::get('/about', [About::class,'render'])->name('about');
+Route::get('/home', [Home::class,'render'])->name('home');

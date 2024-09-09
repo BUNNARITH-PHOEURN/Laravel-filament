@@ -20,17 +20,10 @@
     @livewireStyles
 </head>
 
-<style>
-    body {
-        overflow: hidden;
-        /* Hide scrollbars */
-    }
-</style>
-
 <body>
     <x-banner />
 
-    <div class="bg-gray-100">
+    <div class="min-h-screen bg-gray-100">
         @include('navigation-menu')
 
         <!-- Page Heading -->
