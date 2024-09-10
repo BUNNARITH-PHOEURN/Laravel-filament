@@ -3,6 +3,7 @@
 use App\Livewire\About;
 use App\Livewire\CourseDetail;
 use App\Livewire\Home;
+use App\Livewire\price;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -32,4 +33,6 @@ Route::middleware([
 
 Route::get('/about', [About::class,'render'])->name('about');
 Route::get('/home', [Home::class,'render'])->name('home');
+Route::get('/price', [price::class,'render'])->name('price');
 Route::get('/course-detail',[CourseDetail::class,'render'])->name('course.detail');
+
