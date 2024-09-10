@@ -104,7 +104,7 @@
                     <div class="p-4">
                         <h3 class="text-xl font-semibold mb-2">Next.js From Scratch</h3>
                         <p class="text-lg text-blue-400 mb-4">$25</p>
-                        <a href="#"
+                        <a href="/course-detail" wire:navigate
                             class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg transition duration-300">
                             Read More
                         </a>
@@ -113,8 +113,8 @@
 
                 <!-- Course Card 2 -->
                 <div class="bg-gray-800 text-white rounded-lg shadow-md overflow-hidden">
-                    <img src="/path-to-image2.jpg" alt="PHP From Scratch | Beginner To Advanced"
-                        class="w-full h-40 object-cover">
+                    <img src="https://www.devopsschool.com/blog/wp-content/uploads/2022/03/php-programming-language.jpg" alt="PHP From Scratch | Beginner To Advanced"
+                        class="w-full h-48 object-cover">
                     <div class="p-4">
                         <h3 class="text-xl font-semibold mb-2">PHP From Scratch | Beginner To Advanced</h3>
                         <p class="text-lg text-blue-400 mb-4">$25</p>
@@ -127,8 +127,8 @@
 
                 <!-- Course Card 3 -->
                 <div class="bg-gray-800 text-white rounded-lg shadow-md overflow-hidden">
-                    <img src="/path-to-image3.jpg" alt="Bootstrap 5 From Scratch Course"
-                        class="w-full h-40 object-cover">
+                    <img src="https://blog.templatetoaster.com/wp-content/uploads/2020/05/Bootstrap-5-Facebbok.png" alt="Bootstrap 5 From Scratch Course"
+                        class="w-full h-48 object-cover">
                     <div class="p-4">
                         <h3 class="text-xl font-semibold mb-2">Bootstrap 5 From Scratch Course</h3>
                         <p class="text-lg text-blue-400 mb-4">$25</p>
@@ -141,8 +141,8 @@
 
                 <!-- Course Card 4 -->
                 <div class="bg-gray-800 text-white rounded-lg shadow-md overflow-hidden">
-                    <img src="/path-to-image4.jpg" alt="MERN Stack From Scratch - eCommerce"
-                        class="w-full h-40 object-cover">
+                    <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153652484/settings_images/005f6ae-2377-0f1d-e544-bcc5bd0bb5fe_MERN_ECOMMERCE_Style_3_border.png" alt="MERN Stack From Scratch - eCommerce"
+                        class="w-full h-48 object-cover">
                     <div class="p-4">
                         <h3 class="text-xl font-semibold mb-2">MERN Stack From Scratch - eCommerce</h3>
                         <p class="text-lg text-blue-400 mb-4">$25</p>
@@ -155,7 +155,7 @@
 
                 <!-- Course Card 5 -->
                 <div class="bg-gray-800 text-white rounded-lg shadow-md overflow-hidden">
-                    <img src="/path-to-image5.jpg" alt="React Front To Back" class="w-full h-40 object-cover">
+                    <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/sites/2147632815/images/a2bd401-184-0108-a2e2-3066227a7bd_08cddc12-9c4b-4111-a8c8-680ce1c1cc91.jpg" alt="React Front To Back" class="w-full h-48 object-cover">
                     <div class="p-4">
                         <h3 class="text-xl font-semibold mb-2">React Front To Back</h3>
                         <p class="text-lg text-blue-400 mb-4">$25</p>
@@ -168,8 +168,8 @@
 
                 <!-- Course Card 6 -->
                 <div class="bg-gray-800 text-white rounded-lg shadow-md overflow-hidden">
-                    <img src="/path-to-image6.jpg" alt="50 Projects in 50 Days - HTML, CSS & JavaScript"
-                        class="w-full h-40 object-cover">
+                    <img src="https://herocode.com.br/_next/image/?url=https%3A%2F%2Fpainel.herocode.com.br%2Fwp-content%2Fuploads%2F2023%2F09%2Flogotipo-do-css-html-e-javascript-em-um-fundo-azul.webp&w=1920&q=75" alt="50 Projects in 50 Days - HTML, CSS & JavaScript"
+                        class="w-full h-48 object-cover">
                     <div class="p-4">
                         <h3 class="text-xl font-semibold mb-2">50 Projects in 50 Days - HTML, CSS & JavaScript</h3>
                         <p class="text-lg text-blue-400 mb-4">$25</p>
@@ -183,9 +183,7 @@
             </div>
         </div>
     </section>
-
-
-    <div class="h-[470px] w-screen bg-cover bg-center py-11 flex items-center justify-center"
+    {{-- <div class="h-[470px] w-screen bg-cover bg-center py-11 flex items-center justify-center"
         style="background-image: url('https://media.istockphoto.com/id/1320882544/photo/glowing-light-bulb-and-book-or-text-book-with-futuristic-icon-self-learning-or-education.jpg?s=612x612&w=0&k=20&c=1fCGnLilpVhM1rw2DKgtTcujYezmelfPFYPB4dyhuuk='); background-size: cover; background-position: center center; background-repeat: no-repeat;">
         <h1 class="text-white text-4xl w-full h-[470px] flex items-center justify-center shadow-black"
             style="background-color: rgba(0, 0, 0, 0.5);">Hello from Home page</h1>
@@ -196,6 +194,6 @@
 
     <div class="h-10 w-screen bg-red-300">
         <h1>Hello world</h1>
-    </div>
+    </div> --}}
 
 </x-app-layout>
