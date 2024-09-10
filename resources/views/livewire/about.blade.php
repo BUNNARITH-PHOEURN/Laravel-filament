@@ -87,7 +87,7 @@
         </div>
 
         <div class="text-center mb-12">
-            <h2 class="text-4xl font-bold text-gray-800">Why Choose E-learning</h2>
+            <h2 class="text-4xl font-bold text-gray-800">Why Choose <p class="text-4xl text-blue-500">Us?</p></h2>
             <p class="mt-4 text-gray-600">Look into yourself, know you're ambitious and keep moving forward until you
                 get something in return as your achievement.</p>
         </div>
